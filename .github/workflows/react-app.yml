@@ -3,10 +3,6 @@ jobs:
   build-container:
     name: Build Container
     runs-on: ubuntu-latest
-    ports: 
-    - "3001:3001"
-    expose:
-    - 3001
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
